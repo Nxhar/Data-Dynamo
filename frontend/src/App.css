@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Open Sans';
+  background-color: #ecf7fd ;
+}
+
+
+.btn{
+  background-color: #9b51e0;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.appContainer{
+  display: flex;
+}
+
+.MenuDivider{
+  display: flex;
+  width: 20%;
+  height: 100vh;
+  justify-content: center;
+}
+

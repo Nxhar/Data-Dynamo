@@ -1,0 +1,64 @@
+.medicine{
+    width: 90%;
+    padding: 20px 30px;
+    background-color: #9b51e0;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.medicines{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+    align-items: center;
+}
+
+.input{
+    padding: 8px 20px;
+    font-size: 18px;
+    border: 1px solid #9b51e0;
+    width: 75%;
+    font-family: 'Open Sans';
+}
+
+a{
+    text-decoration: none;
+}
+
+.input:focus{
+    border:1px solid white
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 60px;
+    align-items: center;
+}
+
+.searchicon{
+    cursor: pointer;
+    margin-top: -10px;
+    
+}
+.searchicon:hover{
+    color: #9b51e0;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item{
+    background-color: #9b51e0;
+    color: #fff;
+    padding: 10px 20px;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

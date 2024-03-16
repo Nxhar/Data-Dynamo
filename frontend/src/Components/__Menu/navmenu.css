@@ -1,0 +1,136 @@
+:root{
+    --primary-bg : #9b51e0;
+    --sec-bg : #2D3E83;
+}
+
+.navMenu{
+    width: 100%;
+    background-color: var(--primary-bg);
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.navMenu h4{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.sidebar{
+    flex: 0.4;
+    font-family: 'Poppins';
+    height: 92vh;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    
+}
+
+.sidebar .title{
+    display: inline-block;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+    background-color: var(--primary-bg);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.sidebar .option{
+    
+    display: flex;
+    margin-left: 20px;
+    gap:10px;
+    font-size: 1em;
+    /* background-color: #b64c4c; */
+    width: fit-content;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.activeLink{
+    background-color: var(--primary-bg);
+    color:#fff !important;
+}
+
+
+
+.sidebar .option:hover, .sidebar .option:hover a{
+    color:var(--primary-bg);
+}
+
+.activeLink:hover{
+    background-color: var(--primary-bg) !important;
+    color:#fff !important   ;
+}
+
+.sidebar .option a{
+    display: flex;
+    text-decoration: none;
+    color: black ;
+}
+
+.sidebar .profile{
+    margin-top: 30px;
+    margin-left: 3px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: var(--primary-bg);
+    border-radius: 5px;
+    padding: 12px 10px;
+    gap: 5px;
+    font-size: 19px;
+    font-weight: 500;
+    color: white;
+}
+
+.profile-iconHere{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%; 
+    object-fit: cover;  
+    border: 1px solid #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile .textIn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 4px;
+}
+
+.profile .textIn .name{
+    font-size: 20px;
+}
+
+.profile .textIn .email{
+    font-size: 12px;
+    opacity: 0.8;
+    margin-left: 1px;
+    margin-top: -4px;
+}

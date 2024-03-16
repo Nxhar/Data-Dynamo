@@ -1,0 +1,87 @@
+.rightbg{
+    background-color: #fff;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+
+}
+
+.butn{
+    background-color: #9b51e0;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    width: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease all;
+    border: 1px solid #9b51e0;
+
+}
+
+.butn:hover{
+    color: #9b51e0;
+    background-color: #fff;
+}
+
+.ov{
+    background-color: #fff;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.myForm label{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    border: 1px solid #9b51e0;
+    /* padding: 10px 20px; */
+    padding-bottom: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 90%;
+    padding-top: 0;
+    text-align: center;
+    font-size: 18px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1{
+    background-color: #9b51e0;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card p span{
+    background-color: #9b51e0;
+    color: #fff;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+.card h1{
+    font-size: 30px;
+}
